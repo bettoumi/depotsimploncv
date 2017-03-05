@@ -4,14 +4,14 @@
 	box-sizing: border-box;
 }
 body{
-	background-color:#fcfafb;
+	/*background-color:#fcfafb;*/
 }
 /*style the head*/
 .header{
-	background-color:#FF9999;;
+	background-color:#FF9999;
 	width:100%;
 	height: 105px;
-	margin-bottom: 100px;
+	/*margin-bottom: 100px;*/
 	border: 1px solid transparent;
 	border-radius: 10px;
 }
@@ -46,7 +46,24 @@ body{
 	color:#ae023e;
 	font-size: 23px;
 }
-/* style the description article*/
+/* style the  à propos  section */
+#apropos{
+	width: 100%;
+	background-color: black;
+	height: 1170px;
+
+}
+h2{
+  	 text-align: center;
+  	 font-size: 30px;
+  	 text-align: center;
+  	 font-family: 'Libre Baskerville', serif;
+  	 font-weight: bold;
+  	 font-style: italic;
+  	 color: #FF9999;
+  	 padding-top: 20px;
+
+  }
 #description{
 	border: 1px solid transparent;
  	border-radius: 20px;
@@ -75,14 +92,14 @@ body{
 	height: 200px;
 	background-color: #f0f0f5;
 	margin-left:30px;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 	margin-top: 50px;
 	padding-left: 30px;
 	font-family:'Libre+Baskerville' serif;
 
 	/*box-shadow: 3px 3px 2px #888888;*/
 }
-.art h2{
+.art h3{
 	text-transform: uppercase;
 	text-decoration: underline;
 	padding-bottom: 20px;
@@ -92,7 +109,29 @@ body{
 	font-size: 25px;
 	font-style: italic;
 }
-/*style the footer*/
+/*style  portfolio section*/
+#portfolio
+  {
+  	width:100%;
+	height: 300px;
+	margin-top: 5px;
+	
+	background-color:#f0f0f5;
+  }
+  .artport{
+  	display: inline-block;
+  	border:2px solid #FF9999;
+  	border-radius: 10px;
+  	width: 100px;
+  	height: 100px;
+  	margin: 50px 150px;
+  }
+  #portfolio h2{
+  	color: black;
+  }
+  
+
+/*style  footer*/
 footer{
 	margin-top: 50px;
 
@@ -108,4 +147,6 @@ footer p span{
 	font-weight: bold;
 
 }
+#contact{
 
+}
